@@ -47,7 +47,7 @@ public class FindNumber3 {
      * @return
      */
     public boolean find2(int[][] array, int target) {
-        if (array == null || array.length == 0) {
+        if (array == null || array.length == 0 || array[0].length==0) {
             return false;
         }
 
